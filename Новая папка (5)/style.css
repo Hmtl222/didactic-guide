@@ -1,0 +1,30 @@
+body{
+    background-color: cornflowerblue;
+    text-align: center;
+}
+.description {
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+}
+.container {
+   background-color: white;
+    width: 50%;
+    margin: 0 auto;
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+.social-icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.social-icon {
+    margin: 0 10px;
+    color: rgb(0, 0, 0);
+    font-size: 24px;
+    transition: color 0.3s;
+}
+.social-icon:hover {
+    color: cornflowerblue;
+}
